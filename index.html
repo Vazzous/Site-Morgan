@@ -4,34 +4,114 @@
 	<meta charset="utf-8">
     <title>Morgan Charlery</title>
     <link href="css/dist/css/bootstrap.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
     <meta author="Valentin Pastout">
     <meta charset="utf-8">
     <meta name="description" content="Je suis un jeune artiste ayant travaillé pour plusieur commune. Je fais des oeuvre murale "/>
     <meta name="keywords" content="art, peinture, inspiration, mural, portrait, abstrait, coloré, indépendant, auto-entrepreneur, exposition, artiste, artistique, Morgan Charlery"/>
+	<!-- Rendu net pour support tactile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-<nav class="navbar navbar-expand-md-1 navbar-dark bg-dark">
-		<a href="#" class="navbar-brand"><img width="40" src="media/IMG_4692-300x205.jpg"></a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">
-			<span class="navbar-toggler-icon"></span>
-		 </button>
- 			<div class="collapse navbar-collapse" id="menuhamburger">
- 				<ul class="navbar-nav m-auto">
- 					<li class="nav-item active">
- 						<a href="#" class="nav-link">Accueil</a>
- 					</li>
- 					<li class="nav-item">
- 						<a href="#" class="nav-link">A propos</a>
- 					</li>
-					<li class="nav-item">
- 						<a href="#" class="nav-link">Contact</a>
- 					</li>
- 				</ul>
- 			</div>
-</nav>
-
 <body>
+	<!--Script Internet BootStrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!--Carousel top page-->
+	<div id="controleurCarousel" class="carousel slide mt-5" dataride="carousel">
+		<!-- Les indicateurs -->
+ 		<ol class="carousel-indicators">
+ 			<li data-target="#controleurCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#controleurCarouse2" data-slideto="1"></li>
+			<li data-target="#controleurCarouse3" data-slideto="2"></li>
+ 		</ol>
+ 		<div class="carousel-inner">
+ 			<div class="carousel-item active">
+				<img class="img-fluid img-responsive" src="media/49496.jpg" alt="">
+				<!--Légende du premier élément-->
+ 				<div class="carousel-caption d-none d-md-block">
+ 					<h5> Mural MPT Villeparisis </h5>
+ 					<p>2017</p>
+ 				</div>
+ 			</div>
+ 			<div class="carousel-item">
+ 				<img class="img-fluid img-responsive" src="media/422965-1920x1080.jpg" alt="">
+				<!--Légende du deuxième élément-->
+ 				<div class="carousel-caption d-none d-md-block">
+ 					<h5> Mural Passerelles 17 </h5>
+ 					<p>2018</p>
+ 				</div>
+ 			</div>
+				
+ 			<div class="carousel-item">
+ 				<img class="img-fluid img-responsive" src="media/602498.jpg" alt="Mural Passerelles">
+				<!--Légende du troisième élément-->
+ 				<div class="carousel-caption d-none d-md-block">
+ 					<h5> Mural Ecole République </h5>
+ 					<p>2017</p>
+ 				</div>
+			</div>
+ 		</div>
+		
+		<!--Les controleurs-->
+ 		<a class="carousel-control-prev" href="#controleurCarousel" role="button" data-slide="prev">
+ 			<span class="carousel-control-prev-icon" ariahidden="true"></span>
+ 		</a>
+ 		<a class="carousel-control-next" href="#controleurCarousel" role="button" data-slide="next">
+ 			<span class="carousel-control-next-icon" ariahidden="true"></span>
+ 		</a>
+	</div>
 
-
+	<!--Barre de nav-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<!--Logo-->
+	<a href="#" class="navbar-brand">Morgan Charlery</a>
+	<!--Menu Burger-->
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">
+ 		<span class="navbar-toggler-icon"></span>
+ 	</button>
+ 	<div class="collapse navbar-collapse" id="menuhamburger">
+ 		<ul class="navbar-nav m-auto">
+			<li class="nav-item active">
+ 				<a href="#" class="nav-link">Accueil</a>
+ 			</li>
+	 		<li class="nav-item">
+ 				<a href="#" class="nav-link">Mural</a>
+ 			</li>
+ 			<li class="nav-item">
+ 				<a href="#" class="nav-link">Canvas</a>
+ 			</li>
+ 			<li class="nav-item">
+ 				<a href="#" class="nav-link">Bio</a>
+ 			</li>
+			 <li class="nav-item">
+ 				<a href="#" class="nav-link">Partenaria</a>
+ 			</li>
+	 		<li class="nav-item">
+ 				<a href="#" class="nav-link">A propos</a>
+ 			</li>
+ 			<li class="nav-item">
+ 				<a href="#" class="nav-link">Contact</a>
+ 			</li>
+			 <li class="nav-item">
+ 				<a href="#" class="nav-link">Sign Up</a>
+ 			</li>
+	 		<li class="nav-item">
+ 				<a href="#" class="nav-link">Login</a>
+			</li>
+ 		</ul>
+		 <form class="form-inline">
+ 			<input class="form-control mr-sm-2" type="search" placeholder="Search">
+ 			<button class="btn btn-primary" type="submit">Envoyer</button>
+		 </form>
+ 	</div>
+</nav>
 </body>
+<footer>
+ 	<div class="footer">
+ 		<p>FOOOOOOOOTER</p>
+ 	</div>
+</footer>
 </html>
